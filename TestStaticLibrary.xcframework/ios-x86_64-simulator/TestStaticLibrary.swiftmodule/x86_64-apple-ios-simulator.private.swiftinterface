@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name TestStaticLibrary
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import __ObjC
+public class TestAdLib {
+  public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class APSStriptBannerModule : UIKit.UIView, __ObjC.APSSPBannerViewDelegate {
+  @_Concurrency.MainActor(unsafe) public init(appKey: Swift.String, placementId: Swift.String)
+  @_Concurrency.MainActor(unsafe) required public init?(coder: Foundation.NSCoder, appKey: Swift.String, placementId: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func load()
+  @_Concurrency.MainActor(unsafe) public func stop()
+  @_Concurrency.MainActor(unsafe) @objc public func apsspBannerViewLoadSuccess(_ bannerView: __ObjC.AdPopcornSSPBannerView!)
+  @_Concurrency.MainActor(unsafe) @objc public func apsspBannerViewClicked(_ bannerView: __ObjC.AdPopcornSSPBannerView!)
+  @_Concurrency.MainActor(unsafe) @objc public func apsspBannerViewLoadFail(_ bannerView: __ObjC.AdPopcornSSPBannerView!, error: __ObjC.AdPopcornSSPError!)
+  @objc deinit
+}

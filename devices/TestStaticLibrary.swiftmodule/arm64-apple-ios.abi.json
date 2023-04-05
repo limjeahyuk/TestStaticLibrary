@@ -1,0 +1,649 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestStaticLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TestStaticLibrary"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestStaticLibrary",
+        "printedName": "TestStaticLibrary",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestStaticLibrary",
+                "printedName": "TestStaticLibrary.TestStaticLibrary",
+                "usr": "s:17TestStaticLibraryAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17TestStaticLibraryAACABycfc",
+            "mangledName": "$s17TestStaticLibraryAACABycfc",
+            "moduleName": "TestStaticLibrary",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17TestStaticLibraryAAC",
+        "mangledName": "$s17TestStaticLibraryAAC",
+        "moduleName": "TestStaticLibrary",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestStaticLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestAdLib",
+        "printedName": "TestAdLib",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestAdLib",
+                "printedName": "TestStaticLibrary.TestAdLib",
+                "usr": "s:17TestStaticLibrary0A5AdLibC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17TestStaticLibrary0A5AdLibCACycfc",
+            "mangledName": "$s17TestStaticLibrary0A5AdLibCACycfc",
+            "moduleName": "TestStaticLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17TestStaticLibrary0A5AdLibC",
+        "mangledName": "$s17TestStaticLibrary0A5AdLibC",
+        "moduleName": "TestStaticLibrary",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestStaticLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APSStriptBannerModule",
+        "printedName": "APSStriptBannerModule",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerView",
+            "printedName": "bannerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "__ObjC.AdPopcornSSPBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPopcornSSPBannerView",
+                    "printedName": "__ObjC.AdPopcornSSPBannerView",
+                    "usr": "c:objc(cs)AdPopcornSSPBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvp",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvp",
+            "moduleName": "TestStaticLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "__ObjC.AdPopcornSSPBannerView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdPopcornSSPBannerView",
+                        "printedName": "__ObjC.AdPopcornSSPBannerView",
+                        "usr": "c:objc(cs)AdPopcornSSPBannerView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvg",
+                "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvg",
+                "moduleName": "TestStaticLibrary",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "__ObjC.AdPopcornSSPBannerView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdPopcornSSPBannerView",
+                        "printedName": "__ObjC.AdPopcornSSPBannerView",
+                        "usr": "c:objc(cs)AdPopcornSSPBannerView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvs",
+                "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvs",
+                "moduleName": "TestStaticLibrary",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvM",
+                "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC10bannerViewSo018AdPopcornSSPBannerH0CSgvM",
+                "moduleName": "TestStaticLibrary",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appKey:placementId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APSStriptBannerModule",
+                "printedName": "TestStaticLibrary.APSStriptBannerModule",
+                "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC6appKey11placementIdACSS_SStcfc",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC6appKey11placementIdACSS_SStcfc",
+            "moduleName": "TestStaticLibrary",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:appKey:placementId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TestStaticLibrary.APSStriptBannerModule?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APSStriptBannerModule",
+                    "printedName": "TestStaticLibrary.APSStriptBannerModule",
+                    "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC5coder6appKey11placementIdACSgSo7NSCoderC_S2Stcfc",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC5coder6appKey11placementIdACSgSo7NSCoderC_S2Stcfc",
+            "moduleName": "TestStaticLibrary",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TestStaticLibrary.APSStriptBannerModule?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APSStriptBannerModule",
+                    "printedName": "TestStaticLibrary.APSStriptBannerModule",
+                    "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule(im)initWithCoder:",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TestStaticLibrary",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC4loadyyF",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC4loadyyF",
+            "moduleName": "TestStaticLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestStaticLibrary21APSStriptBannerModuleC4stopyyF",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC4stopyyF",
+            "moduleName": "TestStaticLibrary",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "apsspBannerViewLoadSuccess",
+            "printedName": "apsspBannerViewLoadSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "__ObjC.AdPopcornSSPBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPopcornSSPBannerView",
+                    "printedName": "__ObjC.AdPopcornSSPBannerView",
+                    "usr": "c:objc(cs)AdPopcornSSPBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule(im)APSSPBannerViewLoadSuccess:",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC05apsspE15ViewLoadSuccessyySo018AdPopcornSSPBannerH0CSgF",
+            "moduleName": "TestStaticLibrary",
+            "isOpen": true,
+            "objc_name": "APSSPBannerViewLoadSuccess:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "apsspBannerViewClicked",
+            "printedName": "apsspBannerViewClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "__ObjC.AdPopcornSSPBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPopcornSSPBannerView",
+                    "printedName": "__ObjC.AdPopcornSSPBannerView",
+                    "usr": "c:objc(cs)AdPopcornSSPBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule(im)APSSPBannerViewClicked:",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC05apsspE11ViewClickedyySo018AdPopcornSSPBannerH0CSgF",
+            "moduleName": "TestStaticLibrary",
+            "isOpen": true,
+            "objc_name": "APSSPBannerViewClicked:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "apsspBannerViewLoadFail",
+            "printedName": "apsspBannerViewLoadFail(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "__ObjC.AdPopcornSSPBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPopcornSSPBannerView",
+                    "printedName": "__ObjC.AdPopcornSSPBannerView",
+                    "usr": "c:objc(cs)AdPopcornSSPBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "__ObjC.AdPopcornSSPError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPopcornSSPError",
+                    "printedName": "__ObjC.AdPopcornSSPError",
+                    "usr": "c:objc(cs)AdPopcornSSPError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule(im)APSSPBannerViewLoadFail:error:",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC05apsspE12ViewLoadFail_5errorySo018AdPopcornSSPBannerH0CSg_So0lM8SSPErrorCSgtF",
+            "moduleName": "TestStaticLibrary",
+            "isOpen": true,
+            "objc_name": "APSSPBannerViewLoadFail:error:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APSStriptBannerModule",
+                "printedName": "TestStaticLibrary.APSStriptBannerModule",
+                "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule(im)initWithFrame:",
+            "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC5frameACSo6CGRectV_tcfc",
+            "moduleName": "TestStaticLibrary",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TestStaticLibrary@objc(cs)APSStriptBannerModule",
+        "mangledName": "$s17TestStaticLibrary21APSStriptBannerModuleC",
+        "moduleName": "TestStaticLibrary",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/LimStudy\/TestStaticLibrary\/TestStaticLibrary\/APSStriptBannerModule.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 21,
+      "value": "\"TestStaticLibrary.APSStriptBannerModule\""
+    }
+  ]
+}
