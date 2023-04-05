@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TestStaticLibrary"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A brief description of MyStaticLib."
   s.description  = <<-DESC
                     A longer description of MyStaticLib in Markdown format.
@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "13.0"
   s.source       = { :git => "https://github.com/limjeahyuk/TestStaticLibrary", :tag => "#{s.version.to_s}" }
-
-  s.default_subspecs = "AdPopcornSSP"
+  s.vendored frameworks = "TestStaticLibrary.xcframework"
   
   s.subspec 'AdPopcornSSP' do |ap|
     ap.vendored_frameworks = "AdPopcornSSP/AdPopcornSSP.framework"
